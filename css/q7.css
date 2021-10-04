@@ -94,7 +94,7 @@ a:hover {
 
 @font-face {
     font-family: 'NotoSansDisplay-Bold';
-    src: url('../css/fonts/NotoSansDisplay-Bold.ttf') format('truetype');
+    src: url('../css/fonts/MNotoSansDisplay-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
