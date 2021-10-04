@@ -10,15 +10,16 @@
   --cyan: #00FFFF;
   --blue: #007bff;
   --violet: #9900FF;
-  --font-light: NotoSansDisplay-Light;
-  --font-regular: NotoSansDisplay-Regular;
-  --font-bold: NotoSansDisplay-Bold;
-  --font-medium: NotoSansDisplay-Medium;
-  --font-semibold: NotoSansDisplay-SemiBold;
+  --font-light: MuseoModerno-Light;
+  --font-regular: MuseoModerno-Regular;
+  --font-bold: MuseoModerno-Bold;
+  --font-medium: MuseoModerno-Medium;
+  --font-semibold: MuseoModerno-SemiBold;
   --font-var: bandeins_strangeSBdExfull;
   --font-varbold: bandeins_strangeBdExfull;
   --font-varhalf: bandeins_strangeBdExhalf;
 }
+
 
 .bodyl {
   background-color: var(--white);
@@ -104,38 +105,38 @@
 }
 
 @font-face {
-  font-family: 'NotoSansDisplay-Bold';
-  src: url('../css/fonts/NotoSansDisplay-Bold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'MuseoModerno-Bold';
+    src: url('../css/fonts/MuseoModerno-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'NotoSansDisplay-Regular';
-  src: url('../css/fonts/NotoSansDisplay-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'MuseoModerno-Regular';
+    src: url('../css/fonts/MuseoModerno-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'NotoSansDisplay-SemiBold';
-  src: url('../css/fonts/NotoSansDisplay-SemiBold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'MuseoModerno-SemiBold';
+    src: url('../css/fonts/MuseoModerno-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'NotoSansDisplay-Light';
-  src: url('../css/fonts/NotoSansDisplay-Light.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'MuseoModerno-Light';
+    src: url('../css/fonts/MuseoModerno-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'NotoSansDisplay-Medium';
-  src: url('../css/fonts/NotoSansDisplay-Medium.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'MuseoModerno-Medium';
+    src: url('../css/fonts/MuseoModerno-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {}
@@ -143,10 +144,6 @@ html {}
 html, body {
   height: 100%;
   /* overflow: hidden; */
-}
-
-#home {
-  overflow: hidden !important;
 }
 
 footer .container-fluid {
@@ -194,6 +191,7 @@ footer .container-fluid {
   position: relative;
 }
 
+
 .body5 {
   min-height: 100%;
   height: 100vh;
@@ -235,6 +233,7 @@ footer .container-fluid {
 }
 
 /* home page */
+
 .logobar {
   height: 80px;
 }
@@ -373,17 +372,9 @@ a:hover.sottolineatura {
   text-decoration: underline;
 }
 
-.underline11 {
-  color: var(--green);
-}
-
 .underline2 {
   color: var(--blue);
   text-decoration: underline;
-}
-
-.underline22 {
-  color: var(--blue);
 }
 
 .underline3 {
@@ -391,27 +382,19 @@ a:hover.sottolineatura {
   text-decoration: underline;
 }
 
-.underline33 {
-  color: var(--black);
-}
-
 .underline4 {
   color: var(--white);
   text-decoration: underline;
 }
 
-.underline44 {
-  color: var(--white);
-}
-
 #PrevVIOLA {
   margin-left: 1.5rem;
-  width: 70%;
+  width: 100%;
   cursor: pointer;
 }
 
 #NextVIOLA {
-  width: 80%;
+  width: 60%;
   margin-right: 1.5rem;
   float: right;
   cursor: pointer;
@@ -419,12 +402,12 @@ a:hover.sottolineatura {
 
 #PrevCYAN {
   margin-left: 1.5rem;
-  width: 70%;
+  width: 63%;
   cursor: pointer;
 }
 
 #NextCYAN {
-  width: 80%;
+  width: 63%;
   margin-right: 1.5rem;
   float: right;
   cursor: pointer;
@@ -445,7 +428,7 @@ a:hover.sottolineatura {
 
 #PrevYELLOW {
   margin-left: 1.5rem;
-  width: 70%;
+  width: 100%;
   cursor: pointer;
   margin-bottom: -14.5rem;
 }
@@ -610,6 +593,7 @@ a:hover.sottolineatura {
 }
 
 /* Transizione */
+
 .animate-in {
   -webkit-animation: fadeIn .5s ease-in;
   animation: fadeIn .5s ease-in;
@@ -642,6 +626,7 @@ a:hover.sottolineatura {
 }
 
 /* Risultati finali */
+
 .result {
   background-color: var(--white);
   border: 0.1rem solid black;
@@ -708,12 +693,14 @@ a:hover.sottolineatura {
   top: 35%;
   z-index: 999;
   padding: 1rem 4rem;
-  left: 1%;
+  left:1%;
   font-size: 1.5rem;
   font-family: var(--font-medium);
 }
 
+
 /* media query schermo 4k */
+
 @media screen and (min-width: 3840px) {
   .logobar {
     height: 9vh;
@@ -1146,7 +1133,9 @@ a:hover.sottolineatura {
   }
 }
 
+
 /* mobile */
+
 @media only screen and (min-width: 320px) {
   .mobile {
     position: absolute;
@@ -1209,7 +1198,9 @@ a:hover.sottolineatura {
   }
 }
 
+
 /* tablet */
+
 @media only screen and (max-width: 1024px) {
   .logobar {
     height: 9vh;
@@ -1287,6 +1278,7 @@ a:hover.sottolineatura {
     font-size: 2rem;
   }
 
+
   .text1 {
     margin: 9vh 0 0 0;
     padding: 0;
@@ -1351,6 +1343,7 @@ a:hover.sottolineatura {
     margin-top: 1rem;
     text-align: center;
   }
+
 
   @keyframes float {
     0% {
