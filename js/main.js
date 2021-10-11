@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-//--PARALLAX
+//--PARALLAX 
   var currentX = '';
   var currentY = '';
   var movementConstant = .015;
