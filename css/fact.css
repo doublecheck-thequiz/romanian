@@ -564,9 +564,10 @@ a:hover {
 }
 
 #next1 {
-  width: 60%;
+  width: 90%;
   height: auto;
   z-index: 100;
+  margin-left: -25%;
   cursor: pointer;
 }
 
